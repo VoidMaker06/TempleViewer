@@ -1,0 +1,128 @@
+[
+    {
+        "title" : "Vishnu kanchi Arulmigu Sri Varadharaja Perumal Temple",
+        "description" : "Dating back to 1053, this ancient temple site is one of 108 said to have been visited by the saints.",
+        "relative_distance" : "250 meters",
+        "timings" : {
+            "Monday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ],
+            "Tuesday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ],
+            "Wednesday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ],
+            "Thursday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ],
+            "Friday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ],
+            "Saturday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ],
+            "Sunday" : [
+                "8 am - 12 pm",
+                "4 pm - 8 pm"
+            ]
+        },
+        "maps_address" : "W Mada St, Nethaji Nagar, Kanchipuram, Nattapettai, Tamil Nadu 631501"
+    },
+
+    {
+        "title" : "Sri Maha Periyava temple thenambakkam",
+        "description" : "",
+        "relative_distance" : "1.8 km",
+        "timings" : {
+            "Monday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ],
+            "Tuesday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ],
+            "Wednesday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ],
+            "Thursday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ],
+            "Friday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ],
+            "Saturday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ],
+            "Sunday" : [
+                "7 am 11:30 pm",
+                "4 pm - 6:30 pm"
+            ]
+        },
+        "maps_address" : "Military Rd, Thenambakkam, Kanchipuram, Nattapettai, Tamil Nadu 631601"
+    },
+
+    {
+        "title" : "Sri Bramapuriswarar Temple",
+        "description" : "",
+        "relative_distance" : "1.7 km",
+        "timings" : null,
+        "maps_address" : "11b, Military Rd, Thenamabakkam, Thrivulluvar Nagar, Nattapettai, Kanchipuram, Tamil Nadu 631501"
+    },
+
+    {
+        "title" : "Sri Sonnavannam Seidha Perumal (Yathokthakaari) Temple",
+        "description" : "",
+        "relative_distance" : "1.6 km",
+        "timings" : {
+            "Monday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ],
+            "Tuesday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ],
+            "Wednesday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ],
+            "Thursday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ],
+            "Friday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ],
+            "Saturday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ],
+            "Sunday" : [
+                "8 am - 10:30 am",
+                "4:30 pm - 7:30 pm"
+            ]
+        },
+        "maps_address" : "Ennaikaran, Kanchipuram, Arappanacheri, Tamil Nadu 631501"
+    },
+
+    {
+        "title" : "Sri Prasanna Venkatesa Perumal Temple",
+        "description" : "",
+        "relative_distance" : "3.6 km",
+        "timings" : null,
+        "maps_address" : "Mutthialpettai, Kanchipuram, Nattapettai, Tamil Nadu 631601"
+    }
+]

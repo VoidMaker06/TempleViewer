@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("assets/fonts/quicksand/Quicksand-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: rubik;
+    src: url("assets/fonts/rubik/Rubik-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: rubik;
+    src: url("assets/fonts/rubik/Rubik-Italic-VariableFont_wght.ttf") format('truetype');
+    font-style: italic;
+}
+
+*, *::after, *::before {
+    font-family: rubik, sans-serif;
+}
+
+body {
+    background-color: #e8eaed;
+
+    overflow: hidden;
+
+    display: flex;
+
+    gap: .5rem;
+}
+
+/* MAP */
+.map {
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* CONTAINER */
+.info-container {
+    max-width: 450px;
+    max-height: 90vh;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+
+    background-color: #f8f9fa;
+
+    border-radius: 15px;
+
+    margin: .3rem;
+    padding: 1.1rem;
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+
+    overflow-y: auto;
+
+    scrollbar-width: none;
+}
+
+.info-container::-webkit-scrollbar {
+    display: none;
+}
+
+.info-container .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    align-self: center;
+
+    max-width: 450px;
+    max-height: 250px;
+
+    min-width: 400px;
+    min-height: 250px;
+
+    width: 100%;
+    height: 100%;
+
+    margin-bottom: 1rem;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.info-container .images .image {
+    width: 100%;
+    height: 100%;
+
+    transition: 200ms;
+}
+
+.info-container .images .image:hover {
+    filter: blur(3px);
+}
+
+.info-container .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.info-container .maps-address {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.info-container .relative-distance {
+    color: #0075e3;
+}
+
+.info-container .description {
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-container .description::before {
+    content: "About\A\A";
+    white-space: pre;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.info-container .timings {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.info-container .timings::before {
+    content: "Timings\A\A";
+    white-space: pre;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.info-container .timings .timing-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    font-size: .9em;
+
+}
+
+.info-container .timings .timing-item .day-timing {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SEPARATOR */
+.separator {
+    background-color: #d3dae0;
+    height: 1px;
+}
+
+/* CARD */
+
+.info-cards {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    overflow-y: auto;
+
+    max-height: 90vh;
+
+    scrollbar-width: none;
+}
+
+.info-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.info-card {
+    max-width: 350px;
+
+    background-color: #f8f9fa;
+
+    padding: 1.1rem;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+
+    margin: .3rem;
+}
+
+.info-card:first-child {
+    border-color: #0075e3;
+}
+
+.info-card .title {
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.info-card .maps-address {
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.info-card .relative-distance {
+    font-size: .8em;
+}
